@@ -11,8 +11,8 @@
 proxy-providers:
   provider1:
     type: http
-    url: "url"  # 填入订阅链接
-    interval: 3600  # 订阅更新间隔，单位：秒
+    url: "url"  # http://179.255.158.236:62860/73f6dd7d-5b6f-45c4-942f-a9ea9282b089/clash
+    interval: 3600  # 1440，单位：秒
     path: ./proxy_provider/provider1.yaml
     proxy: DIRECT  # 下载订阅时使用的策略
     # 在 Provider 层统一排除公告、流量、到期等非节点条目，避免各策略组重复配置
